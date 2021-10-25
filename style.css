@@ -1,0 +1,66 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(./assets/imgfundo2.jpg);
+  background-position: 100%;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.desfocar{
+  backdrop-filter: blur(5px);
+}
+.titulo{
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 5px;
+  margin-top: 5px;
+  backdrop-filter: (5px);
+}
+.subtitulo {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 575px;
+  font-size: 20px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.campo {
+  margin: 0 0 15px;
+}
+
+.campo input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px 15px;
+}
+
+.campo button {
+  border: 0;
+  color: #ffffff;
+  background: #1e41da;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-left: 600px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.campo button:hover {
+  opacity: 0.8;
+}
+
+  
